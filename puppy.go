@@ -4,6 +4,6 @@ import (
 	"fmt"
 )
 
-func bark() {
+func Bark() {
 	fmt.Println("woof woof!")
 }

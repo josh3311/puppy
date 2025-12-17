@@ -5,7 +5,9 @@ import "fmt"
 func Bark() string {
 	return "woof woof!"
 }
-
-func from2() {
-	fmt.Println("this is version 2")
+func Barks() string {
+	return "woof woof woof!"
+}
+func from1() {
+	fmt.Println("this is version 1")
 }

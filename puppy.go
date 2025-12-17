@@ -8,6 +8,6 @@ func Bark() string {
 func Barks() string {
 	return "woof woof woof!"
 }
-func from1() {
+func From1() {
 	fmt.Println("this is version 1")
 }

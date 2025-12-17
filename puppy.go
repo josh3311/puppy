@@ -1,9 +1,11 @@
 package puppy
 
-import (
-	"fmt"
-)
+import "fmt"
 
-func Bark() {
-	fmt.Println("woof woof!")
+func Bark() string {
+	return "woof woof!"
+}
+
+func from2() {
+	fmt.Println("this is version 2")
 }
